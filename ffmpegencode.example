@@ -1,0 +1,1 @@
+ffmpeg -i /Users/TrueRazor/Desktop/video.mp4 -s 720x576 -vf "scale=768:432, pad=width=768:height=576:x=0:y=72:color=white,setdar=4:3" -target pal-dv -af "volume=0.8" /Users/TrueRazor/Desktop/nt.dv -y
